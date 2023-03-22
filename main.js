@@ -11,6 +11,7 @@ getData()
         const id =btn.dataset.id;
         btn.addEventListener('click',()=>{
             return removeUser(id)
+            
         })
     }
 
